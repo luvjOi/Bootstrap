@@ -1,0 +1,229 @@
+.jumbotron {
+  position: relative;
+  padding-top: 8em;
+  padding-bottom: 8em;
+  background-image: url(img/prettylights.jpg);
+  background-size: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+nav a {
+  color: #6699cc;
+}
+
+nav a:hover {
+  color: #9fbfdf;
+}
+
+.header {
+  padding-top: 8em;
+  padding-bottom: 8em;
+  background-size: 100%;
+  height: 30%;
+  max-width: 100%;
+}
+
+.header-text {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  top: 40%;
+  margin-left: 39%;
+}
+
+.header-text-contact {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  top: 43%;
+  margin-left: 20%;
+  width: 65%;
+}
+
+h2, h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5vw;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+.opacity {
+  background-color: #000;
+  padding-top: 20em;
+  padding-bottom: 20em;
+  opacity: .6;
+  width: 90%;
+}
+
+.jumbo-text {
+  position: absolute;
+  top: 30%;
+  width: 70%;
+  margin-left: 13%;
+}
+
+.navbar li {
+  padding-left: 1em;
+}
+
+.image-1 {
+  width: 70%;
+}
+
+.col {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  background-color: red;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact {
+  width: 70%;
+}
+
+.form-group {
+  margin-top: 1em;
+}
+
+.footer {
+  background-color: #6699cc;
+  color: #fff;
+
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 3em;
+}
+
+.footer-copyright {
+   background-color: #4080bf;
+   margin-top: 4em;
+
+}
+
+.text {
+  margin-top: 1em;
+}
+
+.text-section {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  top: 6em;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 1.2vw;
+}
+
+.text-header {
+  margin-bottom: 25px;
+}
+
+.home-text-1 {
+  width: 80%;
+}
+
+.home-text-2 {
+  width: 80%;
+  margin-left: 6em;
+}
+
+.about-text {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+
+.about-text p {
+  width: 70%;
+  margin-left: 14em;
+}
+
+.line {
+  background-color: #000;
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+
+.img-section {
+  position: relative;
+  opacity: .3;
+}
+
+.about-img {
+  margin-left: 17em;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.caption {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.caption p {
+  width: 75%;
+  margin-left: 6em;
+}
+
+.btn {
+  margin-top: 60px;
+  background-color: #4080bf;
+  color: #fff!important;
+}
+
+.btn:hover {
+  background-color: #6699cc;
+}
+
+.carousel{
+   width: 52%;
+   margin-left: 25%;
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+
+.carousel-inner img {
+     width: 100%;
+     height: 100%;
+ }
+
+ .carousel-caption {
+   padding: 1em;
+   background-color: #000;
+ }
+
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
