@@ -11,28 +11,38 @@
 
 
 <link href="https://fonts.googleapis.com/css?family=Nunito:300,400|Open+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
 
+<link rel="stylesheet" type="text/css" href="style.css">
 
 
 </head>
 
 <body>
-<!--Big blue-->
-<div class="preloader-wrapper active">
-  <div class="spinner-layer spinner-blue-only">
-    <div class="circle-clipper left">
-      <div class="circle"></div>
-    </div>
-    <div class="gap-patch">
-      <div class="circle"></div>
-    </div>
-    <div class="circle-clipper right">
-      <div class="circle"></div>
-    </div>
+
+  <div class="preloader">
+    <img src="img/loader.svg" alt="spinner">
   </div>
-</div>
- 
+
+  <script>
+  const preloader = document.querySelector('.preloader');
+
+  const fadeEffect = setInterval(() => {
+    // if we don't set opacity 1 in CSS, then
+    // it will be equaled to "" -- that's why
+    // we check it, and if so, set opacity to 1
+    if (!preloader.style.opacity) {
+      preloader.style.opacity = 1;
+    }
+    if (preloader.style.opacity > 0) {
+      preloader.style.opacity -= 0.1;
+    } else {
+      clearInterval(fadeEffect);
+    }
+  }, 100);
+
+  window.addEventListener('load', fadeEffect);
+  </script>
+
 <nav class="navbar fixed-top navbar-dark bg-dark justify-content-end">
   <ul class="nav" >
     <li> <a class="navbar-brand" href="index.html">Logo</a></li>
